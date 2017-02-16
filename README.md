@@ -7,6 +7,10 @@ The Virtual Flute was made with a combination of flex sensors and a pressure sen
 Almost all notes in a flute can be played using flex sensors on left hand – index, ring and middle fingers and right hand – index,middle and ring fingers. 
 The Arduino code interprets the position of the fingers based on the resistance values obtained from the flex sensors attached to the fingers and also detects the scale in which to play depending on the input from the pressure sensor.The Python Code on the laptop generates a keyboard event to play keys on FL Studio.
  
+# Gloves with Flex Sensors attached
+![glovesprototype](https://cloud.githubusercontent.com/assets/17588365/23034543/33ce0812-f4a2-11e6-80a9-7243ce1727a7.jpeg)
+
+
 # Source Programs
 * flute.ino : Arduino code to receive data from the flex sensors and the pressure sensor.
 * flute.py : Python code which acts as interface between the arduino and FL Studio.
